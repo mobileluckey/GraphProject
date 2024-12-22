@@ -115,10 +115,3 @@ nx.draw(bus_graph, pos, with_labels=True, node_color='lightblue', font_weight='b
 nx.draw_networkx_edge_labels(bus_graph, pos, edge_labels=nx.get_edge_attributes(bus_graph, 'weight'))
 plt.title("Detroit Bus Network with Bus Assignments")
 plt.show()
-
-# Documentation Notes:
-# - Algorithms implemented: Dijkstra's, A*, and Breadth-First Search.
-# - Inputs: Graph, source node, and target node for pathfinding algorithms.
-# - Outputs: Shortest path or traversal edges.
-# - Use cases: Dijkstra's and A* for shortest pathfinding, BFS for traversal or connectivity analysis.
-# - Graph represented as adjacency matrix and adjacency list.
